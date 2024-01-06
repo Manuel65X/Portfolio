@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/Style.css">
+	<title>Contacto</title>
+</head>
+<body>
+	<section class="content">
+		<header>
+				<a href="index.html"><div>Juan Manuel</div></a>
+			<nav>
+				<ul>
+					<li><a href="proyectos.html" >Proyectos</a></li>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="sobreMi.html">Sobre Mi</a></li>
+					<li><a href="contacto.html" class="linkNav shadow negrilla">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<h2 class="title-contact">Contacto</h2>
+			<article>
+				<form action="procesar_formulario.php" method="post">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" required>
+			
+					<label for="email">Correo electrónico:</label>
+					<input type="email" id="email" name="email" required>
+			
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+			
+					<a class="button" href="mailto:juan.martinez4@utp.edu.co">Enviar</a>
+				</form>
+			</article>
+			<hr>
+			<div><a class="curriculum" href="C:\Users\tutot\OneDrive\Documentos\Portafolio\CURRICULUM\CV-JMMR.pdf" download="CV-JMMR.pdf">Descarga mi curriculum aqui</a></div>
+	</section>
+	<script src="JS/Script.js"></script>
+</body>
+</html>
